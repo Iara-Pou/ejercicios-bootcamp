@@ -3,5 +3,3 @@ function calcularRaizDigital (numero){
     numeroArray = numeroArray.map((nro)=>Number(nro));
     return numeroArray.reduce((acumulador, valor)=>acumulador + valor);
 }
-
-calcularRaizDigital(10);
